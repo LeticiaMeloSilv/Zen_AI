@@ -1,0 +1,74 @@
+input{
+    border: none;
+}
+
+body{
+    background-color: #222831;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    background-color: #31363F;
+    margin: 22px;
+    padding: 22px;
+    width: 94%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+
+
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+.logo{
+    width: 9rem;
+    background-color: #31363F;
+    border-radius: 12px;
+    padding: 12px;
+    position: fixed;
+}
+
+.pergunta_user{
+    background-color: rgb(195, 204, 212);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 50%;
+    align-self: flex-end;
+
+}
+.resposta_ia{
+    background-color: #76ABAE;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 50%;
+}
+/* 
+polygon {
+    stroke: black;
+    stroke-width: 2;
+  } */
+
+
+ footer{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .input_pergunta{
+      padding: 1rem;
+      border-radius: 10rem;
+      width: 40%;
+      background-image: url(../img/enviar\ 1.png);
+      border: none;
+      outline: none;
+      background-repeat: no-repeat;
+      background-size: 32px;
+      background-position: 98% 50%;
+      font-size: 16px;
+    
+
+  }
+  

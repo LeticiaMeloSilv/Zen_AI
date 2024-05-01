@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <script src="../js/cadastro.js" defer></script>
+    <title>Cadastro Zen-IA</title>
+</head>
+
+<body>
+    <header>
+        <a href="../../index.html" class="divVoltar">
+            <img src="../img/btn_voltar.png" alt="botâo de voltar para a tela de login"/>
+            <h1>Criar conta</h1>
+        </a>
+        <img src="../img/logo_grande.png" alt="Logo Zen-IA" class="logo" />
+    </header>
+    <main>
+        <form>
+            <label class="lbls_form ">Nome do usuário</label>
+            <input type="text" id="nome" class="inputs_form" value=" Ex: Fulano da Silva" />
+            <hr>
+            <label class="lbls_form">Endereço de e-mail</label>
+            <input type="email" id="email" class="inputs_form" value="Ex: fulano.silva@email.com.br" />
+            <hr>
+            <label class="lbls_form">Senha</label>
+            <input type="password" id="senha" class="inputs_form" value="********" />
+            <hr>
+            <label class="lbls_form">Confirmação de senha</label>
+            <input type="password" id="confirmarSenha" class="inputs_form" value="********" />
+            <hr>
+            <label class="lbls_form">Telefone</label>
+            <input type="text" id="telefone" class="inputs_form" value="Ex: 5511999999999" />
+            <hr>
+            <button onclick="cadastrarUsuario()">Criar conta</button>
+            <p>
+                <span>Leia Nossos</span>
+                <span>Termos e Condições</span>
+            </p>
+        </form>
+    </main>
+</body>
+
+</html>
